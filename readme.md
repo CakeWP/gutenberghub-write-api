@@ -3,7 +3,7 @@
 This repository contains go api that extends the pocketbase as a framework. By extending we're adding the following enhancements in the pocketbase
 
 1. **Rate Limiter**: We will be limiting users who creates more than 50 records in a minute.
-1. **Secured Connection Route**: Adds a new custom route for securely changing a project connection.
+2. **Fields Query Parameter**: Adds a new ``fields`` query parameter support, That basically allows explicitly selecting fields in each response. This will make the response much light-weight, and purposeful.
 
 ## Build
 

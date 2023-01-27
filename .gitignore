@@ -1,2 +1,5 @@
 # Pocketbase db data.
 pb_data
+
+# Visual studio code
+.vscode
