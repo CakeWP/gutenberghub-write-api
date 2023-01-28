@@ -68,7 +68,9 @@ func main() {
 			fmt.Println(err)
 		}
 
-		var updatedItems []map[string]interface{}
+		var updatedItems struct {
+			Items json.RawMessage `json:"items"`
+		}
 
 		json.Unmarshal(excludedItems, &updatedItems)
 
